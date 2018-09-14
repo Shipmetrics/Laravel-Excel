@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace Maatwebsitevthree\Excel\Events;
 
-use Maatwebsite\Excel\Sheet;
+use Maatwebsitevthree\Excel\Sheet;
 
 class BeforeSheet extends Event
 {

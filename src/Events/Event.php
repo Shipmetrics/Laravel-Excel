@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace Maatwebsitevthree\Excel\Events;
 
 abstract class Event
 {

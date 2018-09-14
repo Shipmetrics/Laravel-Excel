@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace Maatwebsitevthree\Excel\Concerns;
 
 use Illuminate\Support\Collection;
 

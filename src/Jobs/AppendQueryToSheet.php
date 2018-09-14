@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace Maatwebsitevthree\Excel\Jobs;
 
 use Illuminate\Bus\Queueable;
-use Maatwebsite\Excel\Writer;
+use Maatwebsitevthree\Excel\Writer;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 

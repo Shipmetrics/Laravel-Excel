@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Mixins;
+namespace Maatwebsitevthree\Excel\Mixins;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithHeadings;
-use Maatwebsite\Excel\Concerns\FromCollection;
+use Maatwebsitevthree\Excel\Concerns\Exportable;
+use Maatwebsitevthree\Excel\Concerns\WithHeadings;
+use Maatwebsitevthree\Excel\Concerns\FromCollection;
 
 class StoreCollection
 {

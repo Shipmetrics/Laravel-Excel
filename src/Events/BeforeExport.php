@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace Maatwebsitevthree\Excel\Events;
 
-use Maatwebsite\Excel\Writer;
+use Maatwebsitevthree\Excel\Writer;
 
 class BeforeExport extends Event
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Facades;
+namespace Maatwebsitevthree\Excel\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Maatwebsite\Excel\Fakes\ExcelFake;
+use Maatwebsitevthree\Excel\Fakes\ExcelFake;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 /**
