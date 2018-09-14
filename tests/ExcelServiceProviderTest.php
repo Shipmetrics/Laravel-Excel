@@ -19,7 +19,7 @@ class ExcelServiceProviderTest extends TestCase
      */
     public function has_aliased()
     {
-        $this->assertTrue($this->app->isAlias(Excel::class));
-        $this->assertEquals('excel', $this->app->getAlias(Excel::class));
+        $this->assertTrue($this->app->isAlias(Excelvthree::class));
+        $this->assertEquals('excel', $this->app->getAlias(Excelvthree::class));
     }
 }

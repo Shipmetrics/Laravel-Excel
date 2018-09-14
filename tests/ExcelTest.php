@@ -26,7 +26,7 @@ class ExcelTest extends TestCase
     {
         parent::setUp();
 
-        $this->SUT = $this->app->make(Excel::class);
+        $this->SUT = $this->app->make(Excelvthree::class);
     }
 
     /**

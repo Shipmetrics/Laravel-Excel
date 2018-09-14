@@ -114,7 +114,7 @@ class WithEventsTest extends TestCase
     public function can_have_custom_concern_handlers()
     {
         // Add a custom concern handler for the given concern.
-        Excel::extend(CustomConcern::class, function (CustomConcern $exportable, Writer $writer) {
+        Excelvthree::extend(CustomConcern::class, function (CustomConcern $exportable, Writer $writer) {
             $writer->getSheetByIndex(0)->append(
                 $exportable->custom()
             );
@@ -153,7 +153,7 @@ class WithEventsTest extends TestCase
     public function can_have_custom_sheet_concern_handlers()
     {
         // Add a custom concern handler for the given concern.
-        Excel::extend(CustomSheetConcern::class, function (CustomSheetConcern $exportable, Sheet $sheet) {
+        Excelvthree::extend(CustomSheetConcern::class, function (CustomSheetConcern $exportable, Sheet $sheet) {
             $sheet->append(
                 $exportable->custom()
             );
