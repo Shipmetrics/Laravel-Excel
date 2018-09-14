@@ -24,7 +24,7 @@ trait Exportable
             throw new NoFilenameGivenException();
         }
 
-        return resolve(Excel::class)->download($this, $fileName, $writerType ?? $this->writerType ?? null);
+        return resolve(Excelvthree::class)->download($this, $fileName, $writerType ?? $this->writerType ?? null);
     }
 
     /**
@@ -43,7 +43,7 @@ trait Exportable
             throw new NoFilePathGivenException();
         }
 
-        return resolve(Excel::class)->store(
+        return resolve(Excelvthree::class)->store(
             $this,
             $filePath,
             $disk ?? $this->disk ?? null,
@@ -67,7 +67,7 @@ trait Exportable
             throw new NoFilePathGivenException();
         }
 
-        return resolve(Excel::class)->queue(
+        return resolve(Excelvthree::class)->queue(
             $this,
             $filePath,
             $disk ?? $this->disk ?? null,
