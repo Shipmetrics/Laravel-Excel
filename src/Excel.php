@@ -117,7 +117,7 @@ class Excel implements Exporter
      * @throws \PhpOffice\PhpSpreadsheet\Writer\Exception
      * @return string
      */
-    protected function export($export, string $fileName, string $writerType = null)
+    function export($export, string $fileName, string $writerType = null)
     {
         if (null === $writerType) {
             $writerType = $this->findTypeByExtension($fileName);
