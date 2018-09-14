@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace Maatwebsitevthree\Excel;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
