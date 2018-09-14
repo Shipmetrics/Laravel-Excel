@@ -56,21 +56,21 @@ return [
     |
     */
     'extension_detector' => [
-        'xlsx'     => Excelvthree::XLSX,
-        'xlsm'     => Excelvthree::XLSX,
-        'xltx'     => Excelvthree::XLSX,
-        'xltm'     => Excelvthree::XLSX,
-        'xls'      => Excelvthree::XLS,
-        'xlt'      => Excelvthree::XLS,
-        'ods'      => Excelvthree::ODS,
-        'ots'      => Excelvthree::ODS,
-        'slk'      => Excelvthree::SLK,
-        'xml'      => Excelvthree::XML,
-        'gnumeric' => Excelvthree::GNUMERIC,
-        'htm'      => Excelvthree::HTML,
-        'html'     => Excelvthree::HTML,
-        'csv'      => Excelvthree::CSV,
-        'tsv'      => Excelvthree::TSV,
+        'xlsx'     => Excel::XLSX,
+        'xlsm'     => Excel::XLSX,
+        'xltx'     => Excel::XLSX,
+        'xltm'     => Excel::XLSX,
+        'xls'      => Excel::XLS,
+        'xlt'      => Excel::XLS,
+        'ods'      => Excel::ODS,
+        'ots'      => Excel::ODS,
+        'slk'      => Excel::SLK,
+        'xml'      => Excel::XML,
+        'gnumeric' => Excel::GNUMERIC,
+        'htm'      => Excel::HTML,
+        'html'     => Excel::HTML,
+        'csv'      => Excel::CSV,
+        'tsv'      => Excel::TSV,
 
         /*
         |--------------------------------------------------------------------------
@@ -79,9 +79,9 @@ return [
         |
         | Configure here which Pdf driver should be used by default.
         |
-        | Available options: Excelvthree::MPDF | Excelvthree::TCPDF | Excelvthree::DOMPDF
+        | Available options: Excel::MPDF | Excel::TCPDF | Excel::DOMPDF
         |
         */
-        'pdf'      => Excelvthree::DOMPDF,
+        'pdf'      => Excel::DOMPDF,
     ],
 ];

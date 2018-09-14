@@ -105,7 +105,7 @@ class UsersController extends Controller
 {
     public function export() 
     {
-        return Excelvthree::download(new UsersExport, 'users.xlsx');
+        return Excel::download(new UsersExport, 'users.xlsx');
     }
 }
 ```

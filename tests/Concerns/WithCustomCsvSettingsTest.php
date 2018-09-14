@@ -19,7 +19,7 @@ class WithCustomCsvSettingsTest extends TestCase
     {
         parent::setUp();
 
-        $this->SUT = $this->app->make(Excelvthree::class);
+        $this->SUT = $this->app->make(Excel::class);
     }
 
     /**

@@ -20,9 +20,9 @@ class DownloadCollectionTest extends TestCase
             ['column_1' => 'test2', 'column_2' => 'test2'],
         ]);
 
-        $response = $collection->downloadExcel('collection-download.xlsx', Excelvthree::XLSX);
+        $response = $collection->downloadExcel('collection-download.xlsx', Excel::XLSX);
 
-        $array = $this->readAsArray($response->getFile()->getPathName(), Excelvthree::XLSX);
+        $array = $this->readAsArray($response->getFile()->getPathName(), Excel::XLSX);
 
         // First row are not headings
         $firstRow = collect($array)->first();
@@ -45,9 +45,9 @@ class DownloadCollectionTest extends TestCase
             ['column_1' => 'test', 'column_2' => 'test'],
         ]);
 
-        $response = $collection->downloadExcel('collection-headers-download.xlsx', Excelvthree::XLSX, true);
+        $response = $collection->downloadExcel('collection-headers-download.xlsx', Excel::XLSX, true);
 
-        $array = $this->readAsArray($response->getFile()->getPathName(), Excelvthree::XLSX);
+        $array = $this->readAsArray($response->getFile()->getPathName(), Excel::XLSX);
 
         $this->assertEquals(['column_1', 'column_2'], collect($array)->first());
     }
@@ -61,9 +61,9 @@ class DownloadCollectionTest extends TestCase
             new User(['name' => 'Patrick', 'password' => 'my_password']),
         ]);
 
-        $response = $collection->downloadExcel('collection-headers-download.xlsx', Excelvthree::XLSX, true);
+        $response = $collection->downloadExcel('collection-headers-download.xlsx', Excel::XLSX, true);
 
-        $array = $this->readAsArray($response->getFile()->getPathName(), Excelvthree::XLSX);
+        $array = $this->readAsArray($response->getFile()->getPathName(), Excel::XLSX);
 
         $this->assertEquals(['name'], collect($array)->first());
     }
@@ -80,9 +80,9 @@ class DownloadCollectionTest extends TestCase
             $user,
         ]);
 
-        $response = $collection->downloadExcel('collection-headers-download.xlsx', Excelvthree::XLSX, true);
+        $response = $collection->downloadExcel('collection-headers-download.xlsx', Excel::XLSX, true);
 
-        $array = $this->readAsArray($response->getFile()->getPathName(), Excelvthree::XLSX);
+        $array = $this->readAsArray($response->getFile()->getPathName(), Excel::XLSX);
 
         $this->assertEquals(['name', 'password'], collect($array)->first());
     }

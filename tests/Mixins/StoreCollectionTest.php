@@ -34,14 +34,14 @@ class StoreCollectionTest extends TestCase
             ['column_1' => 'test2', 'column_2' => 'test2'],
         ]);
 
-        $response = $collection->storeExcel('collection-store.xlsx', null, Excelvthree::XLSX);
+        $response = $collection->storeExcel('collection-store.xlsx', null, Excel::XLSX);
 
         $file = __DIR__ . '/../Data/Disks/Local/collection-store.xlsx';
 
         $this->assertTrue($response);
         $this->assertFileExists($file);
 
-        $array = $this->readAsArray($file, Excelvthree::XLSX);
+        $array = $this->readAsArray($file, Excel::XLSX);
 
         // First row are not headings
         $firstRow = collect($array)->first();
@@ -63,14 +63,14 @@ class StoreCollectionTest extends TestCase
             ['column_1' => 'test', 'column_2' => 'test'],
         ]);
 
-        $response = $collection->storeExcel('collection-headers-store.xlsx', null, Excelvthree::XLSX, true);
+        $response = $collection->storeExcel('collection-headers-store.xlsx', null, Excel::XLSX, true);
 
         $file = __DIR__ . '/../Data/Disks/Local/collection-headers-store.xlsx';
 
         $this->assertTrue($response);
         $this->assertFileExists($file);
 
-        $array = $this->readAsArray($file, Excelvthree::XLSX);
+        $array = $this->readAsArray($file, Excel::XLSX);
         $this->assertEquals(['column_1', 'column_2'], collect($array)->first());
 
         $this->assertEquals([
