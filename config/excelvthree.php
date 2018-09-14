@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Excel;
+use Maatwebsitevthree\Excel\Excel;
 
 return [
     'exports'            => [
