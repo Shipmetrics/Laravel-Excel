@@ -46,7 +46,7 @@
         "Maatwebsitevthree\\Excel\\ExcelServiceProvider"
       ],
       "aliases": {
-        "Excelvthree": "Maatwebsitevthree\\Excel\\Facades\\Excel"
+        "Excelvthree": "Maatwebsitevthree\\Excel\\Facades\\Excelvthree"
       }
     }
   }

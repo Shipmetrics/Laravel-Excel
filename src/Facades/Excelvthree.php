@@ -14,7 +14,7 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
  * @method static void assertStored(string $filePath, string $disk = null, callable $callback = null)
  * @method static void assertQueued(string $filePath, string $disk = null, callable $callback = null)
  */
-class Excel extends Facade
+class Excelvthree extends Facade
 {
     /**
      * Replace the bound instance with a fake.
