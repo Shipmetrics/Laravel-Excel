@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace Maatwebsitevthree\Excel\Tests;
 
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExportWithMapping;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\Database\User;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\AfterQueueExportJob;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\FromUsersQueryExport;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\FromUsersQueryExportWithMapping;
 
 class QueuedQueryExportTest extends TestCase
 {

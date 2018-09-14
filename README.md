@@ -82,7 +82,7 @@ This should have created:
 namespace App\Exports;
 
 use App\User;
-use Maatwebsite\Excel\Concerns\FromCollection;
+use Maatwebsitevthree\Excel\Concerns\FromCollection;
 
 class UsersExport implements FromCollection
 {
@@ -98,7 +98,7 @@ class UsersExport implements FromCollection
 ```php
 
 use App\Exports\UsersExport;
-use Maatwebsite\Excel\Facades\Excel;
+use Maatwebsitevthree\Excel\Facades\Excel;
 use App\Http\Controllers\Controller;
 
 class UsersController extends Controller 

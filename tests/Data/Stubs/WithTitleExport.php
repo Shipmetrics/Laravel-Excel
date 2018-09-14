@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace Maatwebsitevthree\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\WithTitle;
-use Maatwebsite\Excel\Concerns\Exportable;
+use Maatwebsitevthree\Excel\Concerns\WithTitle;
+use Maatwebsitevthree\Excel\Concerns\Exportable;
 
 class WithTitleExport implements WithTitle
 {

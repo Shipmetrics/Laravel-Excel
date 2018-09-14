@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Maatwebsitevthree\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExport;
+use Maatwebsitevthree\Excel\Tests\TestCase;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\Database\User;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\FromUsersQueryExport;
 
 class FromQueryTest extends TestCase
 {

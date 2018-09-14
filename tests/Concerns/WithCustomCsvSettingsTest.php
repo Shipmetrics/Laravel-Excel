@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Maatwebsitevthree\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Excel;
+use Maatwebsitevthree\Excel\Excel;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
+use Maatwebsitevthree\Excel\Tests\TestCase;
+use Maatwebsitevthree\Excel\Concerns\FromCollection;
+use Maatwebsitevthree\Excel\Concerns\WithCustomCsvSettings;
 
 class WithCustomCsvSettingsTest extends TestCase
 {

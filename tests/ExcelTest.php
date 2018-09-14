@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace Maatwebsitevthree\Excel\Tests;
 
-use Maatwebsite\Excel\Excel;
+use Maatwebsitevthree\Excel\Excel;
 use Illuminate\Support\Collection;
 use Illuminate\Contracts\View\View;
-use Maatwebsite\Excel\Concerns\FromView;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\BeforeWriting;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Facades\Excel as ExcelFacade;
-use Maatwebsite\Excel\Tests\Data\Stubs\EmptyExport;
-use Maatwebsite\Excel\Concerns\RegistersEventListeners;
+use Maatwebsitevthree\Excel\Concerns\FromView;
+use Maatwebsitevthree\Excel\Concerns\Exportable;
+use Maatwebsitevthree\Excel\Concerns\WithEvents;
+use Maatwebsitevthree\Excel\Events\BeforeWriting;
+use Maatwebsitevthree\Excel\Concerns\FromCollection;
+use Maatwebsitevthree\Excel\Facades\Excel as ExcelFacade;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\EmptyExport;
+use Maatwebsitevthree\Excel\Concerns\RegistersEventListeners;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class ExcelTest extends TestCase
@@ -150,7 +150,7 @@ class ExcelTest extends TestCase
 
     /**
      * @test
-     * @expectedException \Maatwebsite\Excel\Exceptions\ConcernConflictException
+     * @expectedException \Maatwebsitevthree\Excel\Exceptions\ConcernConflictException
      * @expectedExceptionMessage Cannot use FromQuery or FromCollection and FromView on the same sheet
      */
     public function cannot_use_from_collection_and_from_view_on_same_export()

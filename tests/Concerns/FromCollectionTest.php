@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Maatwebsitevthree\Excel\Tests\Concerns;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetWith100Rows;
+use Maatwebsitevthree\Excel\Tests\TestCase;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\QueuedExport;
+use Maatwebsitevthree\Excel\Tests\Data\Stubs\SheetWith100Rows;
 
 class FromCollectionTest extends TestCase
 {

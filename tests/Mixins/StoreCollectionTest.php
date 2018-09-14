@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Mixins;
+namespace Maatwebsitevthree\Excel\Tests\Mixins;
 
-use Maatwebsite\Excel\Excel;
+use Maatwebsitevthree\Excel\Excel;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
+use Maatwebsitevthree\Excel\Tests\TestCase;
 
 class StoreCollectionTest extends TestCase
 {
