@@ -47,7 +47,7 @@ class ExcelServiceProvider extends ServiceProvider
             );
         });
 
-        $this->app->alias('excelvthree', Excelvthree::class);
+        $this->app->alias('excelvthree', Excel::class);
         $this->app->alias('excelvthree', Exporter::class);
 
         Collection::mixin(new DownloadCollection);
