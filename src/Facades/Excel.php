@@ -33,6 +33,6 @@ class Excel extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'excel';
+        return 'excelvthree';
     }
 }
