@@ -20,7 +20,6 @@
   "require": {
     "php": ">=5.5",
     "jeremeamia/superclosure": "^2.3",
-    "nesbot/carbon": "~1.0",
     "tijsverkoyen/css-to-inline-styles": "~2.0"
   },
   "require-dev": {
